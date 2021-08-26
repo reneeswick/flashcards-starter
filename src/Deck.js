@@ -1,12 +1,10 @@
-const Card = require('../src/Card');
-
 class Deck {
-  constructor(cardsInDeck){
+  constructor(cardsInDeck) {
     this.cardsInDeck = cardsInDeck || [];
   }
-  countCards(){
+  countCards() {
     return this.cardsInDeck.length
   }
-};
+}
 
 module.exports = Deck;
